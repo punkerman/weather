@@ -1,0 +1,53 @@
+.card-container {
+    width: 280px;
+    height: 100px;
+    display: flex;
+     margin: 10px;
+}
+
+.card-icon {
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.card-info {
+    width: 150px;
+    color: #FFFFFF;
+}
+
+.temperature {
+    margin-top: 10px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.celcius {
+    width: 20px;
+    height: 20px;
+}
+
+.city {
+    justify-content: center;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.close-button {
+    height: 20px;
+    width: 20px;
+    border-radius: 84%;
+    margin: 5px;
+    border: none;
+    font-size: 16px;
+    background: #b3b3b3;
+    color: #4a4a4a;
+}
+.close-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

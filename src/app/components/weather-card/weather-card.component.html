@@ -1,0 +1,16 @@
+<div class="card-container" [style.background-color]="background">
+    <div class="card-icon" [style.background-image]="'url(' + icon + ')'">
+    </div>
+    <div class="card-info">
+        <div class="temperature">
+            {{city?.temperature}}
+            <img src="../../../assets/icons/SVG/46.svg" alt="celcius" class="celcius">
+        </div>
+        <div class="city">
+            {{city?.city}}
+        </div>
+    </div>
+
+    <button (click)="remove()" class="close-button"> x </button>
+
+</div>

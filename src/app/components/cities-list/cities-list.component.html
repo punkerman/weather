@@ -1,0 +1,13 @@
+<div *ngIf="!emptyList; then citiesBlock else noCitiesBlock"></div>
+
+<ng-template #citiesBlock>
+    <div class="cards-list">
+        <app-weather-card [city]="city" *ngFor="let city of cities" class="cards"></app-weather-card>
+
+    </div>
+</ng-template>
+<ng-template #noCitiesBlock>
+    <div class="no-found">
+        no cities selected
+    </div>
+</ng-template>
