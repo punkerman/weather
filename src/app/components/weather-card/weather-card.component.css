@@ -44,8 +44,8 @@
     margin: 5px;
     border: none;
     font-size: 16px;
-    background: #b3b3b3;
-    color: #4a4a4a;
+    background: #ffffff;
+    color: #000000;
 }
 .close-button:hover{
     cursor: pointer;

@@ -19,6 +19,13 @@
     margin: auto 32px;
 }
 
+.logo {
+    align-self: center;
+    width: 200px;
+    height: 58px;
+    margin-left: 15px;
+}
+
 @media only screen and (max-width: 768px) {
     .title-container{ 
         height: 70px;
@@ -29,4 +36,10 @@
     .helper{
         font-size: 36px;
     }
+
+    .logo {
+    width: 150px;
+    height: 43px;
+    margin-left: 10px;
+}
 }
